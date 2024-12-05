@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .oculta{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+  }
+  .Logo-Jordan{
+    display: flex;
+   padding-left: 10rem;
+   width: 50%;
+  }
+
+  .accesos-directos{
+    display: flex;
+    padding-right: 10rem;
+    padding-left: 20rem;
+    font-size: 1.05rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+
+  .fija{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .Logo-nike{
+    width: 30%;
+    padding-left: 10rem;
+  }
+
+  .menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.33rem;
+    
+  }
+  .menu :hover{
+    border-bottom: solid black 5px;
+  }
+
+  .buscador{
+    width: 5%;
+    display: flex;
+  }
+
+  .buscador input{
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    font-size: 18px;
+    color: #222;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 235, 235);
+    border-radius: 30px;
+    transition: all 0.6s ease;
+    font-weight: bold;
+  }
+  .btn {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    position:relative;
+    background: none;
+    text-align: center;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .carrito{
+    width: 5%;
+    display: flex;
+  }
